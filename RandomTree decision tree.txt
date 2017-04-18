@@ -1,0 +1,167 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     mydata-weka.filters.unsupervised.attribute.Remove-R36-37,75-weka.filters.unsupervised.instance.SparseToNonSparse-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveUseless-M99.0-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R27-28-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R27-29-weka.filters.unsupervised.attribute.Remove-R33-weka.filters.unsupervised.attribute.Remove-R52-53-weka.filters.unsupervised.attribute.Remove-R25-26
+Instances:    530
+Attributes:   62
+              resolveTo
+              format.Exiftool.7.74.
+              format.Jhove.1.5.
+              format.file.utility.5.03.
+              format.Droid.3.0.
+              format.NLNZ.Metadata.Extractor.3.4GA.
+              format.ffident.0.2.
+              format.OIS.XML.Metadata.0.2.
+              mimetype.Exiftool.7.74.
+              mimetype.Jhove.1.5.
+              mimetype.file.utility.5.03.
+              mimetype.Droid.3.0.
+              mimetype.NLNZ.Metadata.Extractor.3.4GA.
+              mimetype.ffident.0.2.
+              mimetype.OIS.XML.Metadata.0.2.
+              puid.status.
+              puid.Droid.3.0.
+              format_version.status.
+              format_version.Exiftool.7.74.
+              format_version.Jhove.1.5.
+              format_version.file.utility.5.03.
+              format_version.Droid.3.0.
+              format_version.NLNZ.Metadata.Extractor.3.4GA.
+              size.status.
+              creating_application_name.status.
+              creating_application_name.Exiftool.7.74.
+              creating_application_name.NLNZ.Metadata.Extractor.3.4GA.
+              wellformed.status.
+              valid.status.
+              message.status.
+              created_year.status.
+              created_year.C3PO.0.6.
+              markupbasis.status.
+              markupbasis.Jhove.1.5.
+              markupBasisVersion.status.
+              markupBasisVersion.Jhove.1.5.
+              pagecount.status.
+              is_rightsmanaged.status.
+              is_protected.status.
+              content_type.C3PO.0.6.
+              file_extension.C3PO.0.6.
+              charset.status.
+              charset.Exiftool.7.74.
+              charset.Jhove.1.5.
+              charset.file.utility.5.03.
+              charset.NLNZ.Metadata.Extractor.3.4GA.
+              linebreak.status.
+              linebreak.Jhove.1.5.
+              linebreak.file.utility.5.03.
+              title.NLNZ.Metadata.Extractor.3.4GA.
+              author.status.
+              author.NLNZ.Metadata.Extractor.3.4GA.
+              creating_application_version.status.
+              creating_application_version.Exiftool.7.74.
+              wordcount.status.
+              charactercount.status.
+              language.status.
+              language.NLNZ.Metadata.Extractor.3.4GA.
+              creating_os.status.
+              creating_os.file.utility.5.03.
+              scanner_softwarename.status.
+              scanner_softwarename.Exiftool.7.74.
+Test mode:    100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+format.Droid.3.0. = 
+|   content_type.C3PO.0.6. =  : Macromedia Flash (33/0)
+|   content_type.C3PO.0.6. = Archive : Comma Separated Values (0/0)
+|   content_type.C3PO.0.6. = Document
+|   |   wellformed.status. = 
+|   |   |   file_extension.C3PO.0.6. = csv : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = doc : Microsoft Word (4/0)
+|   |   |   file_extension.C3PO.0.6. = eps : PostScript (3/0)
+|   |   |   file_extension.C3PO.0.6. = gz : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = html : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = pps : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = ppt : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = ps : PostScript (3/0)
+|   |   |   file_extension.C3PO.0.6. = rtf : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = sql : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = swf : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = text : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = txt : Comma Separated Values (0/0)
+|   |   |   file_extension.C3PO.0.6. = unk : PostScript (3/0)
+|   |   |   file_extension.C3PO.0.6. = xls : Microsoft Excel Format (33/0)
+|   |   |   file_extension.C3PO.0.6. = xml : Comma Separated Values (0/0)
+|   |   wellformed.status. = SINGLE_RESULT : Extensible Markup Language (11/0)
+format.Droid.3.0. = Comma Separated Values : Comma Separated Values (33/0)
+format.Droid.3.0. = Encapsulated PostScript File Format : Encapsulated PostScript File Format (58/0)
+format.Droid.3.0. = Extensible Hypertext Markup Language : Extensible Hypertext Markup Language (37/0)
+format.Droid.3.0. = Extensible Markup Language : Hypertext Markup Language (31/0)
+format.Droid.3.0. = GZIP Format : GZIP Format (9/0)
+format.Droid.3.0. = Hypertext Markup Language : Hypertext Markup Language (131/0)
+format.Droid.3.0. = Macromedia Flash : Macromedia Flash (33/0)
+format.Droid.3.0. = Microsoft Excel 2000-2003 Workbook (xls) : Microsoft Excel Format (11/0)
+format.Droid.3.0. = Microsoft Excel 4.0 Worksheet (xls) : Microsoft Excel Format (11/0)
+format.Droid.3.0. = Microsoft Powerpoint Presentation
+|   is_rightsmanaged.status. =  : Microsoft Powerpoint Presentation (29/0)
+|   is_rightsmanaged.status. = SINGLE_RESULT : Microsoft Word (14/0)
+format.Droid.3.0. = Microsoft Word : Microsoft Word (10/0)
+format.Droid.3.0. = Plain text : news or mail text (11/0)
+format.Droid.3.0. = Rich Text Format : Rich Text Format (22/0)
+
+Size of the tree : 38
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         528               99.6226 %
+Incorrectly Classified Instances         2                0.3774 %
+Kappa statistic                          0.9956
+Mean absolute error                      0.0005
+Root mean squared error                  0.0166
+Relative absolute error                  0.4041 %
+Root relative squared error              6.7148 %
+Total Number of Instances              530     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.002    0.971      1.000    0.985      0.984    1.000     1.000     Comma Separated Values
+                 0.983    0.000    1.000      0.983    0.991      0.990    1.000     1.000     Encapsulated PostScript File Format
+                 0.973    0.000    1.000      0.973    0.986      0.985    1.000     1.000     Extensible Hypertext Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Extensible Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     GZIP Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Hypertext Markup Language
+                 1.000    0.002    0.985      1.000    0.992      0.991    1.000     1.000     Macromedia Flash
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Excel Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Powerpoint Presentation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Word
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     news or mail text
+                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         Plain text
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     PostScript
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Rich Text Format
+Weighted Avg.    0.996    0.000    0.996      0.996    0.996      0.996    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  33   0   0   0   0   0   0   0   0   0   0   0   0   0 |   a = Comma Separated Values
+   0  57   0   0   0   0   1   0   0   0   0   0   0   0 |   b = Encapsulated PostScript File Format
+   1   0  36   0   0   0   0   0   0   0   0   0   0   0 |   c = Extensible Hypertext Markup Language
+   0   0   0  11   0   0   0   0   0   0   0   0   0   0 |   d = Extensible Markup Language
+   0   0   0   0   9   0   0   0   0   0   0   0   0   0 |   e = GZIP Format
+   0   0   0   0   0 162   0   0   0   0   0   0   0   0 |   f = Hypertext Markup Language
+   0   0   0   0   0   0  66   0   0   0   0   0   0   0 |   g = Macromedia Flash
+   0   0   0   0   0   0   0  55   0   0   0   0   0   0 |   h = Microsoft Excel Format
+   0   0   0   0   0   0   0   0  29   0   0   0   0   0 |   i = Microsoft Powerpoint Presentation
+   0   0   0   0   0   0   0   0   0  28   0   0   0   0 |   j = Microsoft Word
+   0   0   0   0   0   0   0   0   0   0  11   0   0   0 |   k = news or mail text
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   l = Plain text
+   0   0   0   0   0   0   0   0   0   0   0   0   9   0 |   m = PostScript
+   0   0   0   0   0   0   0   0   0   0   0   0   0  22 |   n = Rich Text Format
+

@@ -1,0 +1,187 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+Relation:     mydata-weka.filters.unsupervised.attribute.Remove-R36-37,75-weka.filters.unsupervised.instance.SparseToNonSparse-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveUseless-M99.0-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R27-28-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R27-29-weka.filters.unsupervised.attribute.Remove-R33-weka.filters.unsupervised.attribute.Remove-R52-53-weka.filters.unsupervised.attribute.Remove-R25-26
+Instances:    530
+Attributes:   62
+              resolveTo
+              format.Exiftool.7.74.
+              format.Jhove.1.5.
+              format.file.utility.5.03.
+              format.Droid.3.0.
+              format.NLNZ.Metadata.Extractor.3.4GA.
+              format.ffident.0.2.
+              format.OIS.XML.Metadata.0.2.
+              mimetype.Exiftool.7.74.
+              mimetype.Jhove.1.5.
+              mimetype.file.utility.5.03.
+              mimetype.Droid.3.0.
+              mimetype.NLNZ.Metadata.Extractor.3.4GA.
+              mimetype.ffident.0.2.
+              mimetype.OIS.XML.Metadata.0.2.
+              puid.status.
+              puid.Droid.3.0.
+              format_version.status.
+              format_version.Exiftool.7.74.
+              format_version.Jhove.1.5.
+              format_version.file.utility.5.03.
+              format_version.Droid.3.0.
+              format_version.NLNZ.Metadata.Extractor.3.4GA.
+              size.status.
+              creating_application_name.status.
+              creating_application_name.Exiftool.7.74.
+              creating_application_name.NLNZ.Metadata.Extractor.3.4GA.
+              wellformed.status.
+              valid.status.
+              message.status.
+              created_year.status.
+              created_year.C3PO.0.6.
+              markupbasis.status.
+              markupbasis.Jhove.1.5.
+              markupBasisVersion.status.
+              markupBasisVersion.Jhove.1.5.
+              pagecount.status.
+              is_rightsmanaged.status.
+              is_protected.status.
+              content_type.C3PO.0.6.
+              file_extension.C3PO.0.6.
+              charset.status.
+              charset.Exiftool.7.74.
+              charset.Jhove.1.5.
+              charset.file.utility.5.03.
+              charset.NLNZ.Metadata.Extractor.3.4GA.
+              linebreak.status.
+              linebreak.Jhove.1.5.
+              linebreak.file.utility.5.03.
+              title.NLNZ.Metadata.Extractor.3.4GA.
+              author.status.
+              author.NLNZ.Metadata.Extractor.3.4GA.
+              creating_application_version.status.
+              creating_application_version.Exiftool.7.74.
+              wordcount.status.
+              charactercount.status.
+              language.status.
+              language.NLNZ.Metadata.Extractor.3.4GA.
+              creating_os.status.
+              creating_os.file.utility.5.03.
+              scanner_softwarename.status.
+              scanner_softwarename.Exiftool.7.74.
+Test mode:    100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic model tree 
+------------------
+: LM_1:1/1 (530)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-1 + 
+[format.Droid.3.0.=Comma Separated Values] * 3.79
+
+Class 1 :
+-1 + 
+[format.Droid.3.0.=Encapsulated PostScript File Format] * 3.79
+
+Class 2 :
+-1 + 
+[format.Droid.3.0.=Extensible Hypertext Markup Language] * 3.79
+
+Class 3 :
+-1 + 
+[format.Exiftool.7.74.=XMP] * 3.79
+
+Class 4 :
+-1 + 
+[format.Exiftool.7.74.=MPEG 1/2 Audio Layer 3] * 3.79
+
+Class 5 :
+-0.85 + 
+[format.NLNZ.Metadata.Extractor.3.4GA.=Hypertext Markup Language] * 3.45
+
+Class 6 :
+-1 + 
+[format.Exiftool.7.74.=SWF] * 3.79
+
+Class 7 :
+-1 + 
+[file_extension.C3PO.0.6.=xls] * 3.79
+
+Class 8 :
+-1 + 
+[format.Droid.3.0.=Microsoft Powerpoint Presentation] * 3.43
+
+Class 9 :
+2.79 + 
+[creating_application_version.status.=] * -3.79
+
+Class 10 :
+-1 + 
+[format.file.utility.5.03.=news or mail text] * 3.79
+
+Class 11 :
+-1 + 
+
+Class 12 :
+-1 + 
+[format.file.utility.5.03.=PostScript document text] * 3.79
+
+Class 13 :
+-1 + 
+[format.Droid.3.0.=Rich Text Format] * 3.79
+
+
+Time taken to build model: 2.44 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         529               99.8113 %
+Incorrectly Classified Instances         1                0.1887 %
+Kappa statistic                          0.9978
+Mean absolute error                      0.0367
+Root mean squared error                  0.0839
+Relative absolute error                 30.0742 %
+Root relative squared error             33.9834 %
+Total Number of Instances              530     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.970    0.000    1.000      0.970    0.985      0.984    1.000     0.997     Comma Separated Values
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Encapsulated PostScript File Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Extensible Hypertext Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Extensible Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     GZIP Format
+                 1.000    0.003    0.994      1.000    0.997      0.996    0.998     0.997     Hypertext Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Macromedia Flash
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Excel Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Powerpoint Presentation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Word
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     news or mail text
+                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         Plain text
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     PostScript
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Rich Text Format
+Weighted Avg.    0.998    0.001    0.998      0.998    0.998      0.998    0.999     0.999     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  32   0   0   0   0   1   0   0   0   0   0   0   0   0 |   a = Comma Separated Values
+   0  58   0   0   0   0   0   0   0   0   0   0   0   0 |   b = Encapsulated PostScript File Format
+   0   0  37   0   0   0   0   0   0   0   0   0   0   0 |   c = Extensible Hypertext Markup Language
+   0   0   0  11   0   0   0   0   0   0   0   0   0   0 |   d = Extensible Markup Language
+   0   0   0   0   9   0   0   0   0   0   0   0   0   0 |   e = GZIP Format
+   0   0   0   0   0 162   0   0   0   0   0   0   0   0 |   f = Hypertext Markup Language
+   0   0   0   0   0   0  66   0   0   0   0   0   0   0 |   g = Macromedia Flash
+   0   0   0   0   0   0   0  55   0   0   0   0   0   0 |   h = Microsoft Excel Format
+   0   0   0   0   0   0   0   0  29   0   0   0   0   0 |   i = Microsoft Powerpoint Presentation
+   0   0   0   0   0   0   0   0   0  28   0   0   0   0 |   j = Microsoft Word
+   0   0   0   0   0   0   0   0   0   0  11   0   0   0 |   k = news or mail text
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   l = Plain text
+   0   0   0   0   0   0   0   0   0   0   0   0   9   0 |   m = PostScript
+   0   0   0   0   0   0   0   0   0   0   0   0   0  22 |   n = Rich Text Format
+

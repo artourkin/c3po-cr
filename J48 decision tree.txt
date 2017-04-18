@@ -1,0 +1,216 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     mydata-weka.filters.unsupervised.attribute.Remove-R36-37,75-weka.filters.unsupervised.instance.SparseToNonSparse-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.RemoveUseless-M99.0-weka.filters.unsupervised.attribute.Remove-R2-weka.filters.unsupervised.attribute.Remove-R27-28-weka.filters.unsupervised.attribute.Remove-R30-weka.filters.unsupervised.attribute.Remove-R27-29-weka.filters.unsupervised.attribute.Remove-R33-weka.filters.unsupervised.attribute.Remove-R52-53-weka.filters.unsupervised.attribute.Remove-R25-26
+Instances:    530
+Attributes:   62
+              resolveTo
+              format.Exiftool.7.74.
+              format.Jhove.1.5.
+              format.file.utility.5.03.
+              format.Droid.3.0.
+              format.NLNZ.Metadata.Extractor.3.4GA.
+              format.ffident.0.2.
+              format.OIS.XML.Metadata.0.2.
+              mimetype.Exiftool.7.74.
+              mimetype.Jhove.1.5.
+              mimetype.file.utility.5.03.
+              mimetype.Droid.3.0.
+              mimetype.NLNZ.Metadata.Extractor.3.4GA.
+              mimetype.ffident.0.2.
+              mimetype.OIS.XML.Metadata.0.2.
+              puid.status.
+              puid.Droid.3.0.
+              format_version.status.
+              format_version.Exiftool.7.74.
+              format_version.Jhove.1.5.
+              format_version.file.utility.5.03.
+              format_version.Droid.3.0.
+              format_version.NLNZ.Metadata.Extractor.3.4GA.
+              size.status.
+              creating_application_name.status.
+              creating_application_name.Exiftool.7.74.
+              creating_application_name.NLNZ.Metadata.Extractor.3.4GA.
+              wellformed.status.
+              valid.status.
+              message.status.
+              created_year.status.
+              created_year.C3PO.0.6.
+              markupbasis.status.
+              markupbasis.Jhove.1.5.
+              markupBasisVersion.status.
+              markupBasisVersion.Jhove.1.5.
+              pagecount.status.
+              is_rightsmanaged.status.
+              is_protected.status.
+              content_type.C3PO.0.6.
+              file_extension.C3PO.0.6.
+              charset.status.
+              charset.Exiftool.7.74.
+              charset.Jhove.1.5.
+              charset.file.utility.5.03.
+              charset.NLNZ.Metadata.Extractor.3.4GA.
+              linebreak.status.
+              linebreak.Jhove.1.5.
+              linebreak.file.utility.5.03.
+              title.NLNZ.Metadata.Extractor.3.4GA.
+              author.status.
+              author.NLNZ.Metadata.Extractor.3.4GA.
+              creating_application_version.status.
+              creating_application_version.Exiftool.7.74.
+              wordcount.status.
+              charactercount.status.
+              language.status.
+              language.NLNZ.Metadata.Extractor.3.4GA.
+              creating_os.status.
+              creating_os.file.utility.5.03.
+              scanner_softwarename.status.
+              scanner_softwarename.Exiftool.7.74.
+Test mode:    100-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+content_type.C3PO.0.6. = 
+|   format.Exiftool.7.74. = 
+|   |   format.Droid.3.0. = : Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Comma Separated Values: Comma Separated Values (33.0)
+|   |   format.Droid.3.0. = Encapsulated PostScript File Format: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Extensible Hypertext Markup Language: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Extensible Markup Language: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = GZIP Format: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Hypertext Markup Language: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Macromedia Flash: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Microsoft Excel 2000-2003 Workbook (xls): Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Microsoft Excel 4.0 Worksheet (xls): Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Microsoft Powerpoint Presentation: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Microsoft Word: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Plain text: Comma Separated Values (0.0)
+|   |   format.Droid.3.0. = Rich Text Format: Rich Text Format (22.0)
+|   format.Exiftool.7.74. = EPS: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = EPS EXIF: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = FPX: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = Hypertext Markup Language: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = Microsoft Word: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = MPEG 1/2 Audio Layer 3: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = PPT: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = SWF: Macromedia Flash (66.0)
+|   format.Exiftool.7.74. = XLS: Macromedia Flash (0.0)
+|   format.Exiftool.7.74. = XMP: Macromedia Flash (0.0)
+content_type.C3PO.0.6. = Archive: GZIP Format (9.0)
+content_type.C3PO.0.6. = Document
+|   wellformed.status. = 
+|   |   mimetype.Exiftool.7.74. = 
+|   |   |   format.file.utility.5.03. = : Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Extensible Markup Language: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = GZIP Format: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data (compressed) version 6: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data (compressed) version 7: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data (compressed) version 8: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data version 3: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data version 4: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Macromedia Flash data version 5: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Microsoft Excel 5.0 Worksheet: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Microsoft Excel Worksheet: Microsoft Excel Format (11.0)
+|   |   |   format.file.utility.5.03. = Microsoft Word: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = news or mail text: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Plain text: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = Postscript: Microsoft Excel Format (0.0)
+|   |   |   format.file.utility.5.03. = PostScript document text: PostScript (7.0)
+|   |   mimetype.Exiftool.7.74. = application/msword: Microsoft Word (28.0)
+|   |   mimetype.Exiftool.7.74. = application/postscript
+|   |   |   format.Droid.3.0. = : PostScript (2.0)
+|   |   |   format.Droid.3.0. = Comma Separated Values: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Encapsulated PostScript File Format: Encapsulated PostScript File Format (58.0)
+|   |   |   format.Droid.3.0. = Extensible Hypertext Markup Language: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Extensible Markup Language: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = GZIP Format: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Hypertext Markup Language: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Macromedia Flash: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Microsoft Excel 2000-2003 Workbook (xls): Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Microsoft Excel 4.0 Worksheet (xls): Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Microsoft Powerpoint Presentation: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Microsoft Word: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Plain text: Encapsulated PostScript File Format (0.0)
+|   |   |   format.Droid.3.0. = Rich Text Format: Encapsulated PostScript File Format (0.0)
+|   |   mimetype.Exiftool.7.74. = application/vnd.ms-excel: Microsoft Excel Format (44.0)
+|   |   mimetype.Exiftool.7.74. = application/vnd.ms-powerpoint: Microsoft Powerpoint Presentation (22.0)
+|   |   mimetype.Exiftool.7.74. = application/x-shockwave-flash: Encapsulated PostScript File Format (0.0)
+|   |   mimetype.Exiftool.7.74. = audio/mpeg: Encapsulated PostScript File Format (0.0)
+|   |   mimetype.Exiftool.7.74. = image/vnd.fpx: Microsoft Powerpoint Presentation (7.0)
+|   |   mimetype.Exiftool.7.74. = text/html: Encapsulated PostScript File Format (0.0)
+|   |   mimetype.Exiftool.7.74. = text/xml: Encapsulated PostScript File Format (0.0)
+|   wellformed.status. = SINGLE_RESULT
+|   |   format.Droid.3.0. = : Extensible Markup Language (11.0)
+|   |   format.Droid.3.0. = Comma Separated Values: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Encapsulated PostScript File Format: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Extensible Hypertext Markup Language: Extensible Hypertext Markup Language (37.0)
+|   |   format.Droid.3.0. = Extensible Markup Language: Hypertext Markup Language (31.0)
+|   |   format.Droid.3.0. = GZIP Format: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Hypertext Markup Language: Hypertext Markup Language (131.0)
+|   |   format.Droid.3.0. = Macromedia Flash: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Microsoft Excel 2000-2003 Workbook (xls): Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Microsoft Excel 4.0 Worksheet (xls): Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Microsoft Powerpoint Presentation: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Microsoft Word: Hypertext Markup Language (0.0)
+|   |   format.Droid.3.0. = Plain text: news or mail text (11.0)
+|   |   format.Droid.3.0. = Rich Text Format: Hypertext Markup Language (0.0)
+
+Number of Leaves  : 	77
+
+Size of the tree : 	85
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         526               99.2453 %
+Incorrectly Classified Instances         4                0.7547 %
+Kappa statistic                          0.9911
+Mean absolute error                      0.0011
+Root mean squared error                  0.0316
+Relative absolute error                  0.8843 %
+Root relative squared error             12.7895 %
+Total Number of Instances              530     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.939    0.000    1.000      0.939    0.969      0.967    0.970     0.943     Comma Separated Values
+                 1.000    0.004    0.967      1.000    0.983      0.981    1.000     0.999     Encapsulated PostScript File Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Extensible Hypertext Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Extensible Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     GZIP Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Hypertext Markup Language
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Macromedia Flash
+                 1.000    0.002    0.982      1.000    0.991      0.990    1.000     1.000     Microsoft Excel Format
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Powerpoint Presentation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Microsoft Word
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     news or mail text
+                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         Plain text
+                 0.778    0.000    1.000      0.778    0.875      0.880    0.999     0.944     PostScript
+                 1.000    0.002    0.957      1.000    0.978      0.977    0.999     0.957     Rich Text Format
+Weighted Avg.    0.992    0.001    0.993      0.992    0.992      0.992    0.998     0.994     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   l   m   n   <-- classified as
+  31   0   0   0   0   0   0   1   0   0   0   0   0   1 |   a = Comma Separated Values
+   0  58   0   0   0   0   0   0   0   0   0   0   0   0 |   b = Encapsulated PostScript File Format
+   0   0  37   0   0   0   0   0   0   0   0   0   0   0 |   c = Extensible Hypertext Markup Language
+   0   0   0  11   0   0   0   0   0   0   0   0   0   0 |   d = Extensible Markup Language
+   0   0   0   0   9   0   0   0   0   0   0   0   0   0 |   e = GZIP Format
+   0   0   0   0   0 162   0   0   0   0   0   0   0   0 |   f = Hypertext Markup Language
+   0   0   0   0   0   0  66   0   0   0   0   0   0   0 |   g = Macromedia Flash
+   0   0   0   0   0   0   0  55   0   0   0   0   0   0 |   h = Microsoft Excel Format
+   0   0   0   0   0   0   0   0  29   0   0   0   0   0 |   i = Microsoft Powerpoint Presentation
+   0   0   0   0   0   0   0   0   0  28   0   0   0   0 |   j = Microsoft Word
+   0   0   0   0   0   0   0   0   0   0  11   0   0   0 |   k = news or mail text
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0 |   l = Plain text
+   0   2   0   0   0   0   0   0   0   0   0   0   7   0 |   m = PostScript
+   0   0   0   0   0   0   0   0   0   0   0   0   0  22 |   n = Rich Text Format
+

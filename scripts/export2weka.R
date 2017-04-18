@@ -1,5 +1,5 @@
 setwd("/Users/artur/rnd/git/c3po-cr")
 
-mydata=read.csv("data/Data\ processed2.csv",header=TRUE)
+mydata=read.csv("data/data.csv",header=TRUE)
 library("foreign")
-write.arff(x =mydata ,file= "data/data_processed.arff")
+write.arff(x =mydata ,file= "data/data.arff")
